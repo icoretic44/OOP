@@ -18,13 +18,16 @@ void Bank::printMenu()
 }
 Customer Bank::newCustomer()
 {
-    cout << "   Please give me some informations\n";
-    cout << "   What's your name ?\n";
-    cout << "   Where do you live in current ?\n";
-    cout << "   What's your phone number ?\n";
-    cout << "   Answer respectively\n";
     string name,address,phone;
-    cin >> name >> address >> phone;
+    cout<<"Please enter your name: ";
+    cin.ignore();
+    getline(cin,name);
+    cout<<"Please enter your address: ";
+    cin.ignore();
+    getline(cin,address);
+    cout<<"Please enter your phone number: ";
+    cin.ignore();
+    getline(cin,phone);
     Customer cus(name,address,phone);
     return cus;
 }

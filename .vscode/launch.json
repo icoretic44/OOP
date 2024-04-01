@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Administrator/OneDrive - VNU-HCMUS/OOP/Banking",
-      "program": "c:/Users/Administrator/OneDrive - VNU-HCMUS/OOP/Banking/build/Debug/outDebug",
+      "cwd": "c:/Users/Administrator/OneDrive - VNU-HCMUS/OOP/Banking2",
+      "program": "c:/Users/Administrator/OneDrive - VNU-HCMUS/OOP/Banking2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
